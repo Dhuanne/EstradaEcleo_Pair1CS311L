@@ -1,4 +1,5 @@
-import static org.junit.Assert.assertEquals;
+
+import static org.testng.Assert.assertEquals;
 
 public class ReversedStrings {
     public static String solution(String str) {
