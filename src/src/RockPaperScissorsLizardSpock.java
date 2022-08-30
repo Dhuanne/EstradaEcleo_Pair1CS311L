@@ -18,18 +18,8 @@
  * Inputs
  * Values will be given as one of "rock", "paper", "scissors", "lizard", "spock".
  */
-import org.junit.Test;
-
 import java.util.*;
-
-import static org.junit.Assert.assertEquals;
-
 public class RockPaperScissorsLizardSpock {
-    public static void main(String args[]){
-
-        rpsls( "player1",  "player2");
-        System.out.println(rpsls( "player1",  "player2"));
-    }
     public static String rpsls(String player1, String player2){
         List<String> arr = List.of("scissors", "paper", "rock", "lizard", "spock");
         int i1 = arr.indexOf(player1);
