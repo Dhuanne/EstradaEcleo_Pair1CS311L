@@ -15,4 +15,5 @@ public class BuildASquare {
     public static final String generateShape(int n) {
         return ("+".repeat(n) + "\n").repeat(n).trim();
     }
+
 }
