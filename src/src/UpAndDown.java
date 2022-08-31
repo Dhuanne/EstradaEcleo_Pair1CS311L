@@ -1,3 +1,4 @@
+
 /**
  *  Don't be afraid, the description is rather long but - hopefully - it is in order that the process be well understood.
     You are given a string s made up of substring s(1), s(2), ..., s(n) separated by whitespaces. Example: "after be arrived two My so"
